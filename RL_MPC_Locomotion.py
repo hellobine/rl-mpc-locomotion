@@ -24,6 +24,7 @@ args = parser.parse_args()
 use_gamepad = not args.disable_gamepad
 debug_vis = False # draw ground normal vector
 
+use_gamepad = False
 if use_gamepad:
     gamepad = gamepad_reader.Gamepad(vel_scale_x=2.5, vel_scale_y=1.5, vel_scale_rot=3.0)
 
