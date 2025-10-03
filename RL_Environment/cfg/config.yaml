@@ -35,7 +35,7 @@ num_subscenes: 4 # Splits the simulation into N physics scenes and runs each one
 # test - if set, run policy in inference mode (requires setting checkpoint to load)
 test: False
 # used to set checkpoint path
-checkpoint: ''
+checkpoint: '/home/wuyou/rl-mpc-locomotion/RL_Environment/runs/Aliengo/Oct02_13-05-17/model_5000.pt'
 # set to True to use multi-gpu horovod training
 multi_gpu: False
 
